@@ -1,4 +1,4 @@
-# Cobalt2 Theme for VS Code
+# Rootpath Theme for VS Code
 
 A theme for VS Code. The code and structure was lifted from Wes Bos' [awesome Cobalt2 theme](https://github.com/wesbos/cobalt2-vscode/), and consiquently has a lot in common. The color scheme is loosley based on [Ryan Bates](https://twitter.com/rbates)' railscasts theme for TextMate.
 
@@ -48,6 +48,16 @@ Once done, open your command palette and select enable **custom CSS and JS**
 Finally reload your editor and the Custom CSS should be taking. You can test this by typing into file - the dirty circle should be yellow not white.
 
 **_Note: Reloading custom CSS and JS after every VSCode update is a must!_**
+
+## Required Fonts
+
+TBC
+
+
+## Recommended Plugins
+
+TBC (Remove a load of plugins)
+
 
 ## Contributing
 This is a bit weird, but to get some sort of live feedback for when editing a theme. Please let me know if you have a saner way of doing it
