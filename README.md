@@ -1,18 +1,17 @@
 # Cobalt2 Theme for VS Code
 
-[![Version](https://vsmarketplacebadge.apphb.com/version/wesbos.theme-cobalt2.svg)](https://marketplace.visualstudio.com/items?itemName=wesbos.theme-cobalt2)
-
-![Preview](https://raw.githubusercontent.com/wesbos/cobalt2-vscode/cobalt2-updates/images/ss.png)
-
+A theme for VS Code. The code and structure was lifted from Wes Bos' [awesome Cobalt2 theme](https://github.com/wesbos/cobalt2-vscode/), and consiquently has a lot in common. The color scheme is loosley based on [Ryan Bates](https://twitter.com/rbates)' railscasts theme for TextMate.
 
 # Installation
 
 1. Open **Extensions** sidebar panel in VS Code. `View → Extensions`
-2. Search for `Cobalt2` - find the one by **Wes Bos** - there are a few other half-baked ones so make sure you have the right one!
+2. Search for `Rootpath`
 3. Click **Install** to install it.
 4. Click **Reload** to reload the your editor
-5. Code > Preferences > Color Theme > **Cobalt2**
-6. Optional: Use the recommended settings below for best experience
+5. Code > Preferences > Color Theme > **Rootpath**
+6. Optional: Install [this plugin](https://github.com/be5invis/vscode-custom-css).
+7. Optional: Create a `.vscodestyles.css` in your home directory for custom CSS.
+8. Optional: Use the recommended settings below
 
 ## Recommended Settings
 
@@ -41,12 +40,10 @@
 }
 ```
 
-## Important: CSS Hacks For Extra Sweet Editor
-Some things in VS Code can't be controlled by settings, but you can install [this plugin](https://github.com/be5invis/vscode-custom-css), then make a file on your computer that will hold your custom CSS, I like to make one in my root called `~/.vscodestyles.css` and then put this everything in [cobalt2-custom-hacks.css](./cobalt2-custom-hacks.css) into your file.
+## CSS Hacks For a Better Editor
+Some things in VS Code can't be controlled by settings, but you can install [this plugin](https://github.com/be5invis/vscode-custom-css), then make a file on your computer that will hold your custom CSS, I like to make one in my root called `~/.vscodestyles.css` and then put this everything in [rootpath-custom-hacks.css](./rootpath-custom-hacks.css) into your file.
 
 Once done, open your command palette and select enable **custom CSS and JS**
-
-![Custom CSS/JS Hack](https://d3vv6lp55qjaqc.cloudfront.net/items/0B37352D3s2A2e33353c/Screen%20Shot%202017-09-15%20at%2011.02.49%20AM.png?X-CloudApp-Visitor-Id=26998&v=7ff79bcc)
 
 Finally reload your editor and the Custom CSS should be taking. You can test this by typing into file - the dirty circle should be yellow not white.
 
@@ -69,23 +66,6 @@ This is a bit weird, but to get some sort of live feedback for when editing a th
 
 Whew. Again, if you have an easier way to style these things, let me know!
 
-## I don't like something
-
-First, this theme is new so if something is funky, please open an issue.
-
-These are the things we have control over. If you would like to change something, you can either open a PR and see if I'd like it added, or override the colours in your own settings.json file.
-
-https://code.visualstudio.com/docs/getstarted/theme-color-reference
-
-## Put Cobalt2 in other places!
-
-* [Sublime Text](https://github.com/wesbos/cobalt2)
-* [Atom](https://github.com/wesbos/Cobalt2-atom)
-* [iTerm2](https://github.com/wesbos/Cobalt2-iterm)
-* [Hyper Term](https://github.com/wesbos/hyperterm-cobalt2-theme)
-* [Alfred](https://github.com/wesbos/Cobalt2-Alfred-Theme)
-* [Slack](https://github.com/wesbos/Cobalt2-Slack)
-
 ## Thanks
 
-Thanks to Roberto Achar for doing much of the initial porting to VS Code.
+Wes and Ryan, obviously.
