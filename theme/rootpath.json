@@ -83,8 +83,8 @@
     "editorGroup.border": "#202E35",
     "editorGroup.dropBackground": "#202E35",
     // editorGroupHeader
-    "editorGroupHeader.noTabsBackground": "#193549",
-    "editorGroupHeader.tabsBackground": "#193549",
+    "editorGroupHeader.noTabsBackground": "#202E35",
+    "editorGroupHeader.tabsBackground": "#202E35",
     "editorGroupHeader.tabsBorder": "#15232d",
     // editorHoverWidget
     "editorHoverWidget.background": "#162024ee",
@@ -253,19 +253,19 @@
     "gitDecoration.conflictingResourceForeground": "#FDE59D",
     // textBlockQuote
     "textBlockQuote.background": "#202E35",
-    "textBlockQuote.border": "#0088ff",
-    "textCodeBlock.background": "#193549",
-    "textLink.activeForeground": "#0088ff",
-    "textLink.foreground": "#0088ff",
+    "textBlockQuote.border": "#F5A197",
+    "textCodeBlock.background": "#0d3a58",
+    "textLink.activeForeground": "#F5A197",
+    "textLink.foreground": "#F5A197",
     "textPreformat.foreground": "#ffc600",
     "textSeparator.foreground": "#0d3a58",
-    "titleBar.activeBackground": "#15232D",
+    "titleBar.activeBackground": "#162024",
     "titleBar.activeForeground": "#ffffff",
-    "titleBar.inactiveBackground": "#193549",
+    "titleBar.inactiveBackground": "#202E35",
     "titleBar.inactiveForeground": "#ffffff33",
     "walkThrough.embeddedEditorBackground": "#0d3a58",
-    "welcomePage.buttonBackground": "#193549",
-    "welcomePage.buttonHoverBackground": "#0d3a58",
+    "welcomePage.buttonBackground": "#0d3a58",
+    "welcomePage.buttonHoverBackground": "#202E35",
     "widget.shadow": "#00000026"
   },
   "tokenColors": [
